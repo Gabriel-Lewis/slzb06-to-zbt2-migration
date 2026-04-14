@@ -56,7 +56,7 @@ The venv lives in `/config/` so it persists across restarts.
 Stop Z2M, then run the backup. Replace the port/address with your old coordinator's address:
 
 ```sh
-# Network-attached coordinator (e.g. SLZB-06 — https://amzn.to/4ejFiYz)
+# Network-attached coordinator (e.g. SLZB-06
 zigpy -v radio znp socket://<HOST>:6638 backup coordinator-backup.json
 
 # USB coordinator
